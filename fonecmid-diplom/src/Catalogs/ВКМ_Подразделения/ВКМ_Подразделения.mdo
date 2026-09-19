@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d576177c-f3e5-4ea5-89ae-029d49ad76fa">
+  <producedTypes>
+    <objectType typeId="0b731294-aaa9-4692-b1ed-223e7d53eb27" valueTypeId="6416564b-9769-4d9f-8239-e990562b2e61"/>
+    <refType typeId="ea66486d-310f-4a03-a754-070f89ed1229" valueTypeId="802b70f8-bc69-48f0-97e3-d1b7ee944cb2"/>
+    <selectionType typeId="9ba1c264-121c-419e-bd1b-74772afce5e1" valueTypeId="db1c0139-03ce-4880-b7d2-f360004c0fac"/>
+    <listType typeId="814c201d-d443-4b2d-9038-fcea58360085" valueTypeId="e88d7b9b-c138-4b2c-977d-91dfef304ab3"/>
+    <managerType typeId="2c6025d9-42c7-4584-b5d1-16c5d92e29a3" valueTypeId="d181cb06-1b41-4f99-8e9c-028d4a7595cb"/>
+  </producedTypes>
+  <name>ВКМ_Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_Подразделения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_Подразделения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

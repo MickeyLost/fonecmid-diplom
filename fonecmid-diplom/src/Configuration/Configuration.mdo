@@ -53,6 +53,8 @@
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
+  <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
@@ -574,18 +576,21 @@
   <roles>Role.Администрирование</roles>
   <roles>Role.БазоваяФункциональностьТП</roles>
   <roles>Role.БазовыеПраваБСП</roles>
-  <roles>Role.ДобавлениеИзменениеДокументовПокупки</roles>
   <roles>Role.БазовыеПраваВнешнихПользователейБСП</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументаОбслуживаниеКлиентов</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументаРеализацияТоваровИУслуг</roles>
+  <roles>Role.ВКМ_ИспользованиеОбработкиМассовоеСозданиеАктов</roles>
   <roles>Role.ВыводНаПринтерФайлБуферОбмена</roles>
   <roles>Role.ДобавлениеИзменениеВариантовОтчетов</roles>
   <roles>Role.ДобавлениеИзменениеВидовКонтактнойИнформации</roles>
   <roles>Role.ДобавлениеИзменениеВнешнихПользователей</roles>
+  <roles>Role.ДобавлениеИзменениеДокументовПокупки</roles>
   <roles>Role.ДобавлениеИзменениеДокументовПродажи</roles>
-  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
   <roles>Role.ДобавлениеИзменениеДополнительныхОтчетовИОбработок</roles>
   <roles>Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений</roles>
-  <roles>Role.ДобавлениеИзменениеНСИ</roles>
+  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
   <roles>Role.ДобавлениеИзменениеЛичныхВариантовОтчетов</roles>
+  <roles>Role.ДобавлениеИзменениеНСИ</roles>
   <roles>Role.ДобавлениеИзменениеПапокИФайлов</roles>
   <roles>Role.ДобавлениеИзменениеПапокИФайловВнешнимиПользователями</roles>
   <roles>Role.ДобавлениеИзменениеПользователей</roles>
@@ -656,6 +661,8 @@
   <commonModules>CommonModule.ВариантыОтчетовСлужебный</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ВКМ_ДоработкаДокументаРеализацияТоваровИУслугВызовСервера</commonModules>
+  <commonModules>CommonModule.ВКМ_Телеграмм</commonModules>
   <commonModules>CommonModule.ВнешниеПользователи</commonModules>
   <commonModules>CommonModule.ВнешниеПользователиКлиент</commonModules>
   <commonModules>CommonModule.ГенерацияШтрихкода</commonModules>
@@ -711,13 +718,13 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыБСП</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыГлобальный</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыИТ</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиент</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебный</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп</commonModules>
-  <commonModules>CommonModule.ОбновлениеИнформационнойБазыИТ</commonModules>
   <commonModules>CommonModule.Обсуждения</commonModules>
   <commonModules>CommonModule.ОбсужденияКлиент</commonModules>
   <commonModules>CommonModule.ОбсужденияСлужебный</commonModules>
@@ -841,13 +848,13 @@
   <commonModules>CommonModule.УдалениеПомеченныхОбъектовСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.УдалениеПомеченныхОбъектовСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.УправлениеДоступом</commonModules>
+  <commonModules>CommonModule.УправлениеДоступомИТ</commonModules>
   <commonModules>CommonModule.УправлениеДоступомПереопределяемый</commonModules>
   <commonModules>CommonModule.УправлениеДоступомСлужебный</commonModules>
   <commonModules>CommonModule.УправлениеДоступомСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.УправлениеДоступомСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.УправлениеДоступомСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.УправлениеДоступомСлужебныйПовтИсп</commonModules>
-  <commonModules>CommonModule.УправлениеДоступомИТ</commonModules>
   <commonModules>CommonModule.УправлениеИтогамиИАгрегатамиСлужебный</commonModules>
   <commonModules>CommonModule.УправлениеКолонтитулами</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформацией</commonModules>
@@ -961,6 +968,7 @@
   <scheduledJobs>ScheduledJob.УстановкаПериодаРассчитанныхИтогов</scheduledJobs>
   <scheduledJobs>ScheduledJob.УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЭкспортОценкиПроизводительности</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ВКМ_ОтправкаСообщенийВТелегерамм</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.ВыполнятьЗамерыПроизводительности</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьВнешнихПользователей</functionalOptions>
@@ -1045,6 +1053,11 @@
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Документы</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Справочники</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_РегистрыСведений</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_РегистрыРасчета</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Обработки</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ГлавныйУзел</constants>
@@ -1111,6 +1124,10 @@
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
   <constants>Constant.УчетнаяЗаписьДляВосстановленияПароля</constants>
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
+  <constants>Constant.ВКМ_ИдентификаторГруппыОповещения</constants>
+  <constants>Constant.ВКМ_ТокенУправленияТБотом</constants>
+  <constants>Constant.ВКМ_НоменклатураАбонентскаяПлата</constants>
+  <constants>Constant.ВКМ_НоменклатураРаботыСпециалиста</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
@@ -1213,11 +1230,16 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
+  <catalogs>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ВКМ_Сотрудники</catalogs>
+  <catalogs>Catalog.ВКМ_Подразделения</catalogs>
+  <catalogs>Catalog.ВКМ_УведомленияТелеграмБоту</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.ВКМ_ОбслуживаниеКлиентов</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
@@ -1264,6 +1286,7 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.ВКМ_СтатусЗаявкиНаОбслуживание</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
@@ -1279,6 +1302,7 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <dataProcessors>DataProcessor.BKM_МассовоеСозданиеАктов</dataProcessors>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
@@ -1372,6 +1396,8 @@
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Затраты</accumulationRegisters>

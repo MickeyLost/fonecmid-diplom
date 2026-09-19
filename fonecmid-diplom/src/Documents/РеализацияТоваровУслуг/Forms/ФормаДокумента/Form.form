@@ -1359,6 +1359,7 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <height>1</height>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
         <chooseType>true</chooseType>
@@ -1440,6 +1441,23 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <formCommands>
+    <name>ВКМ_Заполнить</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВКМ_ВыполнитьКомандуЗаполнить</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

@@ -68,4 +68,7 @@
   <content>CommonForm.ВосстановлениеПаролей</content>
   <content>Report.ПраваРолей</content>
   <content>Report.ДлительностьОтложенногоОбновления</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументаОбслуживаниеКлиентов</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументаРеализацияТоваровИУслуг</content>
+  <content>Role.ВКМ_ИспользованиеОбработкиМассовоеСозданиеАктов</content>
 </mdclass:Subsystem>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82b2a16b-d030-4689-bcfb-eb55057ce2b1">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>Catalog.ВКМ_Подразделения</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>Enum.ВКМ_СтатусЗаявкиНаОбслуживание</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>CommonModule.ВКМ_Телеграмм</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыОповещения</content>
+  <content>Constant.ВКМ_ТокенУправленияТБотом</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелегерамм</content>
+  <content>CommonModule.ВКМ_ДоработкаДокументаРеализацияТоваровИУслугВызовСервера</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументаРеализацияТоваровИУслуг</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументаОбслуживаниеКлиентов</content>
+  <content>Role.ВКМ_ИспользованиеОбработкиМассовоеСозданиеАктов</content>
+</mdclass:Subsystem>

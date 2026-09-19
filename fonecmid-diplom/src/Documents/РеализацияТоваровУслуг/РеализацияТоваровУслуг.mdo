@@ -72,6 +72,7 @@
   <defaultListForm>Document.РеализацияТоваровУслуг.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <registerRecords>AccumulationRegister.ОбработкаЗаказов</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="c7ac2c20-577c-4b41-9689-ee5f9e0b5bea">
@@ -123,10 +124,6 @@
     <choiceParameterLinks>
       <name>Отбор.Владелец</name>
       <field>Document.РеализацияТоваровУслуг.Attribute.Контрагент</field>
-    </choiceParameterLinks>
-    <choiceParameterLinks>
-      <name>Отбор.Организация</name>
-      <field>Document.РеализацияТоваровУслуг.Attribute.Организация</field>
     </choiceParameterLinks>
     <choiceParameters>
       <name>Отбор.ВидДоговора</name>
@@ -200,6 +197,7 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -410,4 +408,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="a03f94e2-3669-4132-89b0-496c5393c169">
+    <name>ПФ_MXL_АктОказанныхУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт оказанных услуг</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
