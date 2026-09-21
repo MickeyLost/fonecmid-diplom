@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0879e8e-c1dc-49b6-aad7-d9f7d174e8f5">
+  <name>ВКМ_ИспользованиеОтчетаАнализВыставленныхАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета анализ выставленных актов</value>
+  </synonym>
+</mdclass:Role>

@@ -142,6 +142,9 @@
   <commonPictures>CommonPicture.ВидыКонтактнойИнформации</commonPictures>
   <commonPictures>CommonPicture.ВидыОпераций</commonPictures>
   <commonPictures>CommonPicture.ВидыСравнения</commonPictures>
+  <commonPictures>CommonPicture.ВКМ_ДобавленныеОбъекты</commonPictures>
+  <commonPictures>CommonPicture.ВКМ_ОбслуживаниеКлиентов</commonPictures>
+  <commonPictures>CommonPicture.ВКМ_РасчетЗарплаты</commonPictures>
   <commonPictures>CommonPicture.ВКонтакте16</commonPictures>
   <commonPictures>CommonPicture.Вопрос32</commonPictures>
   <commonPictures>CommonPicture.ВосклицательныйЗнакКрасный</commonPictures>
@@ -578,6 +581,7 @@
   <roles>Role.БазоваяФункциональностьТП</roles>
   <roles>Role.БазовыеПраваБСП</roles>
   <roles>Role.БазовыеПраваВнешнихПользователейБСП</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументаВыплатаЗарплаты</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеДокументаГрафикОтпусков</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеДокументаНачислениеЗаработнойПлаты</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеДокументаНачисленияФиксированнойПремии</roles>
@@ -585,7 +589,10 @@
   <roles>Role.ВКМ_ДобавлениеИзменениеДокументаРеализацияТоваровИУслуг</roles>
   <roles>Role.ВКМ_ИспользованиеОбработкиЗаполненияГрафикаРабот</roles>
   <roles>Role.ВКМ_ИспользованиеОбработкиМассовоеСозданиеАктов</roles>
-  <roles>Role.ВКМ_ДобавлениеИзменениеДокументаВыплатаЗарплаты</roles>
+  <roles>Role.ВКМ_ИспользованиеОтчетаАнализВыставленныхАктов</roles>
+  <roles>Role.ВКМ_ИспользованиеОтчетаВыработкаСпециалиста</roles>
+  <roles>Role.ВКМ_ИспользованиеОтчетаРасходЗапланированныхОтпусков</roles>
+  <roles>Role.ВКМ_ИспользованиеОтчетаРасчетыССотрудниками</roles>
   <roles>Role.ВыводНаПринтерФайлБуферОбмена</roles>
   <roles>Role.ДобавлениеИзменениеВариантовОтчетов</roles>
   <roles>Role.ДобавлениеИзменениеВидовКонтактнойИнформации</roles>
@@ -1064,6 +1071,8 @@
   <commandGroups>CommandGroup.ВКМ_РегистрыСведений</commandGroups>
   <commandGroups>CommandGroup.ВКМ_РегистрыРасчета</commandGroups>
   <commandGroups>CommandGroup.ВКМ_Обработки</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_РегистрыНакоплений</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_ПланыВидовРасчетов</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</constants>
@@ -1301,6 +1310,10 @@
   <enums>Enum.ВКМ_СтатусЗаявкиНаОбслуживание</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
+  <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
+  <reports>Report.ВКМ_ВыработкаСпециалистов</reports>
+  <reports>Report.ВКМ_РасходЗапланированныхОтпусков</reports>
+  <reports>Report.ВКМ_РасчетыССотрудниками</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ЗадолженностьПокупателей</reports>
   <reports>Report.ЗадолженностьПоставщикам</reports>
@@ -1314,10 +1327,10 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
-  <dataProcessors>DataProcessor.BKM_МассовоеСозданиеАктов</dataProcessors>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ВКМ_ЗаполнениеГрафикаРабот</dataProcessors>
+  <dataProcessors>DataProcessor.ВКМ_МассовоеСозданиеАктов</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаДанныхИзФайла</dataProcessors>

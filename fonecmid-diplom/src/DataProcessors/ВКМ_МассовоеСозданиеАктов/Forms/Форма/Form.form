@@ -339,7 +339,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.BKM_МассовоеСозданиеАктов</types>
+      <types>DataProcessorObject.ВКМ_МассовоеСозданиеАктов</types>
     </valueType>
     <view>
       <common>true</common>

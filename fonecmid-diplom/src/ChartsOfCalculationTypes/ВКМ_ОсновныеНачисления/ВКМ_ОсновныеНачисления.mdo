@@ -47,6 +47,7 @@
       <code xsi:type="core:StringValue">
         <value>ОКЛАД</value>
       </code>
+      <actionPeriodIsBase>true</actionPeriodIsBase>
     </items>
     <items id="409ad03e-78b5-4f07-8d99-fd91aec16a0e">
       <name>Отпуск</name>
@@ -54,6 +55,7 @@
       <code xsi:type="core:StringValue">
         <value>ОТПУСК</value>
       </code>
+      <actionPeriodIsBase>true</actionPeriodIsBase>
       <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</displaced>
       <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
       <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПремияПроцентом</base>

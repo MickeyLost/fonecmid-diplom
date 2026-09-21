@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82b2a16b-d030-4689-bcfb-eb55057ce2b1">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82b2a16b-d030-4689-bcfb-eb55057ce2b1">
   <name>ВКМ_ДобавленныеОбъекты</name>
   <synonym>
     <key>ru</key>
@@ -7,6 +7,9 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ВКМ_ДобавленныеОбъекты</picture>
+  </picture>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
   <content>Catalog.ВКМ_Подразделения</content>
@@ -21,7 +24,7 @@
   <content>Document.РеализацияТоваровУслуг</content>
   <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелегерамм</content>
   <content>CommonModule.ВКМ_ДоработкаДокументаРеализацияТоваровИУслугВызовСервера</content>
-  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>Role.ВКМ_ДобавлениеИзменениеДокументаРеализацияТоваровИУслуг</content>
   <content>Role.ВКМ_ДобавлениеИзменениеДокументаОбслуживаниеКлиентов</content>
   <content>Role.ВКМ_ИспользованиеОбработкиМассовоеСозданиеАктов</content>
@@ -41,4 +44,9 @@
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРабот</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
 </mdclass:Subsystem>
