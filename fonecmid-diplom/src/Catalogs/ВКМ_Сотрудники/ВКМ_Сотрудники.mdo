@@ -34,7 +34,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultListForm>Catalog.ВКМ_Сотрудники.Form.ФормаВыбораСпециалиста</defaultListForm>
   <forms uuid="06aaebd7-ec0a-417e-80a3-82cec2a9589a">
     <name>ФормаВыбораСпециалиста</name>
     <synonym>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7b84f2e-e8c6-433c-88e8-b29605a3e463">
+  <producedTypes>
+    <objectType typeId="cb13fb21-44eb-4801-9125-5fd120c5a919" valueTypeId="cb4f2ffa-bb17-4bd2-9b39-23a0b35e6fc5"/>
+    <managerType typeId="6d207376-5b18-4a33-8dd0-5cbb3099a962" valueTypeId="c690eafc-838d-46ed-b7b4-2ce2f213030a"/>
+  </producedTypes>
+  <name>ВКМ_ЗаполнениеГрафикаРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение графика работ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_ЗаполнениеГрафикаРабот.Form.Форма</defaultForm>
+  <forms uuid="85942d38-e0b2-4dbf-a33d-fcf3b85b1012">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

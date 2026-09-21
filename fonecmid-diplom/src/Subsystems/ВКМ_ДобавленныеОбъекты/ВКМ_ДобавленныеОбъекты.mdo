@@ -25,4 +25,20 @@
   <content>Role.ВКМ_ДобавлениеИзменениеДокументаРеализацияТоваровИУслуг</content>
   <content>Role.ВКМ_ДобавлениеИзменениеДокументаОбслуживаниеКлиентов</content>
   <content>Role.ВКМ_ИспользованиеОбработкиМассовоеСозданиеАктов</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_ГрафикиРабот</content>
+  <content>Catalog.ВКМ_ГрафикиРабот</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>InformationRegister.ВКМ_СведенияОбОтпусках</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРабот</content>
 </mdclass:Subsystem>

@@ -209,6 +209,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Контрагент</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>КонтрагентПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>КонтрагентРасширеннаяПодсказка</name>
           <id>12</id>
@@ -276,6 +280,12 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <choiceParameterLinks>
+            <name>Отбор.Владелец</name>
+            <datapath xsi:type="form:DataPath">
+              <segments>Объект.Контрагент</segments>
+            </datapath>
+          </choiceParameterLinks>
         </extInfo>
       </items>
       <visible>true</visible>

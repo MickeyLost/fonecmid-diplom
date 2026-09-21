@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fce8490a-f5b3-4742-b208-d1cc2ecc305f">
+  <producedTypes>
+    <managerType typeId="37ed2030-ad7c-48d3-9877-2df244baf948" valueTypeId="e41a75ff-ee1b-4741-b973-47afbb540424"/>
+    <valueManagerType typeId="3287f779-3233-4702-b08c-092051f01b62" valueTypeId="cadd68e1-e8b7-4b26-9615-934e83b4e896"/>
+    <valueKeyType typeId="334c7bcd-80a7-4991-9880-6318b017027e" valueTypeId="e8e2ca05-cb34-476c-a9c7-a783036df7a8"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикОтпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>График отпуска</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВКМ_ГрафикиРабот</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
